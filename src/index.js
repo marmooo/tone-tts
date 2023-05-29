@@ -154,7 +154,20 @@ function getNotes(moraSet, text) {
 
 function pitchToNoteName(pitch) {
   const octave = Math.floor(pitch / 12) - 1;
-  const noteNames = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
+  const noteNames = [
+    "C",
+    "C#",
+    "D",
+    "D#",
+    "E",
+    "F",
+    "F#",
+    "G",
+    "G#",
+    "A",
+    "A#",
+    "B",
+  ];
   const noteName = noteNames[pitch % 12];
   return `${noteName}${octave}`;
 }
