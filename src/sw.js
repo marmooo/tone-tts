@@ -1,10 +1,9 @@
-var CACHE_NAME = "2023-05-30 00:55";
+var CACHE_NAME = "2023-06-23 09:25";
 var urlsToCache = [
   "/tone-tts/",
   "/tone-tts/index.js",
   "/tone-tts/mora.lst",
   "/tone-tts/favicon/favicon.svg",
-  "https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css",
   "https://cdn.jsdelivr.net/npm/tone@14.7.77/build/Tone.js",
 ];
 
